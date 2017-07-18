@@ -1,0 +1,1 @@
+var R = {Message: {Hello: "您好~ 這段文字來自 Message.zh-TW.resx",},Text: {Hello: "您好~ 這段文字來自 Text.zh-TW.resx",},}

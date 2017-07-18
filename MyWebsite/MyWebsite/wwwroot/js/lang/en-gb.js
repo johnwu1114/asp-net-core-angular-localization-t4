@@ -1,0 +1,1 @@
+var R = {Message: {Hello: "Hello~ This message from Message.en-GB.resx",},Text: {Hello: "Hello~ This message from Text.en-GB.resx",},}

@@ -1,0 +1,1 @@
+interface R {Message: {Hello: string;};Text: {Hello: string;};}declare var R:R;

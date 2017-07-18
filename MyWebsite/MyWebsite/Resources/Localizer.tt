@@ -1,4 +1,4 @@
-﻿<#@ template  language="C#" hostspecific="true" #>
+﻿<#@ template language="C#" hostspecific="true" #>
 <#@ output extension=".cs" #>
 <#@ assembly name="EnvDTE" #>
 <#@ assembly name="System.Core.dll" #>
