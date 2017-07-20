@@ -37,13 +37,6 @@
     <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Resources\Localizer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Localizer.tt</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <None Update="Resources\JsLocalizationGenerator.js">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -52,10 +45,6 @@
     <None Update="Resources\JsLocalizationGenerator.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>JsLocalizationGenerator.js</LastGenOutput>
-    </None>
-    <None Update="Resources\Localizer.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Localizer.cs</LastGenOutput>
     </None>
   </ItemGroup>
   
