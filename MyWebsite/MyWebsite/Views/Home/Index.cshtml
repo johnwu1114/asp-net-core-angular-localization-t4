@@ -1,6 +1,11 @@
-﻿@using Resources
+﻿@using System.Text.RegularExpressions
+@using System.Globalization
 
-@inject ILocalizer localizer
+@{
+    var culture = Context.Request.Path.Value.Split('/')[1];
+    var hasCultureFromUrl = Regex.IsMatch(culture, @"^[A-Za-z]{2}-[A-Za-z]{2}$");
+    culture = hasCultureFromUrl ? culture : CultureInfo.CurrentCulture.Name;
+}
 
 <!DOCTYPE html>
 <html>
@@ -19,6 +24,6 @@
 </head>
 <body>
     <my-app>Loading...</my-app>
-    <script src="/js/lang/@(localizer.Culture).js"></script>
+    <script src="/js/lang/@(culture).js"></script>
 </body>
 </html>

@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
-using Resources;
 
 namespace MyWebsite
 {
@@ -12,7 +11,6 @@ namespace MyWebsite
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            services.AddScoped<ILocalizer, Localizer>();
         }
 
         public void Configure(IApplicationBuilder app)
