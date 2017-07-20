@@ -12,8 +12,8 @@ Blog：
 ## 相關文章
 
 [ASP.NET Core 教學 - T4 Template 產生強行別多國語言](/article/asp-net-core-t4-generate-localization.html)  
-[Angular 4 教學 - 多國語言](/article/angular-4-localization.html)
-[ASP.NET Core 教學 - 多國語言](/article/asp-net-core-localization.html)
+[Angular 4 教學 - 多國語言](/article/angular-4-localization.html)  
+[ASP.NET Core 教學 - 多國語言](/article/asp-net-core-localization.html)  
 
 ## 說明
 
