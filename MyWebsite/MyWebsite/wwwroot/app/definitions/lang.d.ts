@@ -1,1 +1,1 @@
-interface R {Message: {Hello: string;};Text: {Hello: string;};}declare var R:R;
+interface R {Message: {InternalServerError: string;};Text: {Login: string;Password: string;Send: string;UserName: string;};}declare var R:R;

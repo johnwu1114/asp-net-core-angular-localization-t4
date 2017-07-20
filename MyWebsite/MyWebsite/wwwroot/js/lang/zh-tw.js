@@ -1,1 +1,1 @@
-var R = {Message: {Hello: "您好~ 這段文字來自 Message.zh-TW.resx",},Text: {Hello: "您好~ 這段文字來自 Text.zh-TW.resx",},}
+var R = {Message: {InternalServerError: "內部伺服器發生錯誤",},Text: {Login: "登入",Password: "密碼",Send: "送出",UserName: "帳號",},}

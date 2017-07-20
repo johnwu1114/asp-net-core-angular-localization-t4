@@ -1,1 +1,1 @@
-var R = {Message: {Hello: "Hello~ This message from Message.en-GB.resx",},Text: {Hello: "Hello~ This message from Text.en-GB.resx",},}
+var R = {Message: {InternalServerError: "Internal Server Error",},Text: {Login: "Login",Password: "Password",Send: "Send",UserName: "User Name",},}

@@ -44,6 +44,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Update="Resources\JsLocalizationGenerator.js">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>JsLocalizationGenerator.tt</DependentUpon>
+    </None>
     <None Update="Resources\JsLocalizationGenerator.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>JsLocalizationGenerator.js</LastGenOutput>
