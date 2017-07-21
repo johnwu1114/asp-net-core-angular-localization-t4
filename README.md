@@ -1,13 +1,13 @@
 This repository is sample code for ASP.NET Core & Angular 4 (Angular 2) SPA.  
 Use the Visual Studio 2017 to development.  
 
-# ASP.NET Core + Angular 4 教學 - T4 Template 產生多國語言 
+# ASP.NET Core + Angular 4 教學 - T4 Template 產生 JavaScript 多國語言
 
 之前介紹過 [ASP.NET Core 教學 - T4 Template 產生強行別多國語言](/article/asp-net-core-t4-generate-localization.html)，JavaScript 的多國語言也可以透過 T4 Template 建立出來。  
 本篇將介紹用 T4 Template 製作 JavaScript 的多國語言檔，同時產生 Angular 需要的 TypeScript 定義檔。  
 
 Blog：  
-[ASP.NET Core + Angular 4 教學 - T4 Template 產生多國語言](https://blog.johnwu.cc/article/asp-net-core-angular-4-t4-generate-localization.html)
+[ASP.NET Core + Angular 4 教學 - T4 Template 產生 JavaScript 多國語言](https://blog.johnwu.cc/article/asp-net-core-angular-4-t4-generate-localization.html)
 
 ## 相關文章
 
